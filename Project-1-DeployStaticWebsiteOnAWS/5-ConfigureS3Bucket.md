@@ -1,3 +1,5 @@
+# [ ↩ ](README.md) 
+
 # 5- Configure S3 Bucket
 1- Go to the **Properties** tab and then scroll down to edit the **Static website hosting** section.
 ![Go to the Properties tab
@@ -23,3 +25,4 @@ You must now be able to view the [website endpoint](https://docs.aws.amazon.com/
 
 
 
+# [ ↩ ](README.md) 
