@@ -4,7 +4,7 @@
 # PROJECT 1
 ## Deploy Static Website on AWS
 
-# TABLE OF CONTENT
+# TABLE OF CONTENTS
 * [1- Introduction](#1--Introduction)
   * [Project Overview](#project-overview)
   * [Prerequisites](#prerequisites)
