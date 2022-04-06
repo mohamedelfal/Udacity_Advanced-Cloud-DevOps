@@ -15,14 +15,6 @@
 * [5- Configure S3 Bucket](#5--configure-s3-bucket)
 * [6- Distribute Website Via Cloudfront](#6--distribute-website-via-cloudfront)
 * [Files](#files)
-  * [Udacity Starter Website](./udacity-starter-website.zip)
-  * [1-Introduction.md](./1-Introduction.md)
-  * [2-CreateS3Bucket.md](./2-CreateS3Bucket.md)
-  * [3-UploadFilesToS3Bucket.md](./3-UploadFilesToS3Bucket.md)
-  * [4-SecureBucketViaIAM.md](./4-SecureBucketViaIAM.md)
-  * [5-ConfigureS3Bucket.md](./5-ConfigureS3Bucket.md)
-  * [6-DistributeWebsiteViaCloudFront.md](./6-DistributeWebsiteViaCloudFront.md)
-  * [README.md](./README.md)
 
 
 # 1- Introduction [🔝](#project-1)
@@ -219,14 +211,15 @@ In this example, the Domain Name value is `dgf7z6g067r6d.cloudfront.net`, but **
 
 # Files [🔝](#project-1)
   * [Udacity Starter Website](./udacity-starter-website.zip)
-  * [1-Introduction.md](./1-Introduction.md)
-  * [2-CreateS3Bucket.md](./2-CreateS3Bucket.md)
-  * [3-UploadFilesToS3Bucket.md](./3-UploadFilesToS3Bucket.md)
-  * [4-SecureBucketViaIAM.md](./4-SecureBucketViaIAM.md)
-  * [5-ConfigureS3Bucket.md](./5-ConfigureS3Bucket.md)
-  * [6-DistributeWebsiteViaCloudFront.md](./6-DistributeWebsiteViaCloudFront.md)
   * [README.md](./README.md)
+    * [1-Introduction.md](./1-Introduction.md)
+    * [2-CreateS3Bucket.md](./2-CreateS3Bucket.md)
+    * [3-UploadFilesToS3Bucket.md](./3-UploadFilesToS3Bucket.md)
+    * [4-SecureBucketViaIAM.md](./4-SecureBucketViaIAM.md)
+    * [5-ConfigureS3Bucket.md](./5-ConfigureS3Bucket.md)
+    * [6-DistributeWebsiteViaCloudFront.md](./6-DistributeWebsiteViaCloudFront.md)
 
- [🔝](#project-1)
+
+# [🔝](#project-1)
 
 # [ ↩ ](https://github.com/mohamedelfal/UdacityAdvancedCloudDevOps/)
