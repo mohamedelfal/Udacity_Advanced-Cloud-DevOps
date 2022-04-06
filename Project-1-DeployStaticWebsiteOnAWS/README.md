@@ -4,6 +4,19 @@
 # PROJECT 1
 ## Deploy Static Website on AWS
 
+# TABLE OF CONTENT
+* [1- Introduction](#1--Introduction)
+  * [Project Overview](#project-overview)
+  * [Prerequisites](#prerequisites)
+  * [Dependencies](#dependencies)
+* [2- Create S3 Bucket](#2--create-s3-bucket)
+* [3- Upload Files To S3 Bucket](#3--upload-files-to-s3-bucket)
+* [4- Secure Bucket Via IAM](#4--secure-bucket-via-iam)
+* [5- Configure S3 Bucket](#5--configure-s3-bucket)
+
+
+
+
 # 1- Introduction
 
 In this project, you will deploy a static website to AWS.
