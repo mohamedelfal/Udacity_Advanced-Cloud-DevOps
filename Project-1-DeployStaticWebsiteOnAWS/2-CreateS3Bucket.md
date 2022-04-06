@@ -1,5 +1,7 @@
 
 
+# PROJECT 1
+## Deploy Static Website on AWS
 # 2- Create S3 Bucket
 1- Navigate to the “AWS Management Console” page, type “S3” in the “Find Services” box and then select “S3”.
 
