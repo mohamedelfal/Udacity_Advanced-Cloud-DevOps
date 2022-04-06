@@ -5,16 +5,16 @@
 ## Deploy Static Website on AWS
 
 # TABLE OF CONTENTS
-* [1- Introduction](#1--Introduction)
-  * [Project Overview](#project-overview)
-  * [Prerequisites](#prerequisites)
-  * [Dependencies](#dependencies)
-* [2- Create S3 Bucket](#2--create-s3-bucket)
-* [3- Upload Files To S3 Bucket](#3--upload-files-to-s3-bucket)
-* [4- Secure Bucket Via IAM](#4--secure-bucket-via-iam)
-* [5- Configure S3 Bucket](#5--configure-s3-bucket)
-* [6- Distribute Website Via Cloudfront](#6--distribute-website-via-cloudfront)
-* [Files](#files)
+* [1- Introduction](#1--Introduction-)
+  * [Project Overview](#project-overview-)
+  * [Prerequisites](#prerequisites-)
+  * [Dependencies](#dependencies-)
+* [2- Create S3 Bucket](#2--create-s3-bucket-)
+* [3- Upload Files To S3 Bucket](#3--upload-files-to-s3-bucket-)
+* [4- Secure Bucket Via IAM](#4--secure-bucket-via-iam-)
+* [5- Configure S3 Bucket](#5--configure-s3-bucket-)
+* [6- Distribute Website Via Cloudfront](#6--distribute-website-via-cloudfront-)
+* [Files](#files-)
 
 
 # 1- Introduction [🔝](#project-1)
@@ -209,7 +209,7 @@ Configurations - Cache behavior, key and origin requests
 In this example, the Domain Name value is `dgf7z6g067r6d.cloudfront.net`, but ***yours will be different***.
 
 
-# Files[🔝](#project-1)
+# Files [🔝](#project-1)
   * [Udacity Starter Website](./udacity-starter-website.zip)
   * [README.md](./README.md)
     * [1-Introduction.md](./1-Introduction.md)
