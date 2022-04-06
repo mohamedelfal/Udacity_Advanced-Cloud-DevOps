@@ -26,7 +26,8 @@ Configurations - Cache behavior, key and origin requests
 
 5- Leave the defaults for the rest of the options, and click “Create Distribution”. 
   It may take up to 10 minutes for the CloudFront Distribution to get created.
-**Note**: It may take up to 10 minutes for the CloudFront Distribution to be created.
+  
+**Note**: It may take up to **10 minutes** for the CloudFront Distribution to be created.
 
 6- Once the status of your distribution changes from “In Progress” to “Deployed”, copy the endpoint URL for your CloudFront distribution found in the “Domain Name” column.
 >> **Note** - Remember, as soon as your CloudFront distribution is **Deployed**, it attaches to S3 and starts caching the S3 pages. 
