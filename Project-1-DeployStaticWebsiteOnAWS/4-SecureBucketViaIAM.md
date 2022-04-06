@@ -1,3 +1,5 @@
+# [ ↩ ](README.md) 
+
 # 4- Secure Bucket via IAM
 1- Click on the “Permissions” tab.
  
@@ -30,3 +32,5 @@ You will see warnings about making your bucket public, but **this step is requir
 In such a case, once we set up the ***CloudFront distribution***, it will automatically update the current bucket access policy to access the bucket content. 
 
 The CloudFront service will make this happen by using the **Origin Access Identity** user.
+
+# [ ↩ ](README.md) 
