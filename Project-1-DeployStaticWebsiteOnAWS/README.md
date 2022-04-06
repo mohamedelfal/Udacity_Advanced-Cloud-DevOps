@@ -25,11 +25,11 @@
   * [README.md](./README.md)
 
 
-# 1- Introduction
+# 1- Introduction [🔝](#project-1)
 
 In this project, you will deploy a static website to AWS.
 
-## Project Overview
+## Project Overview [🔝](#project-1)
 The cloud is perfect for hosting static websites that only include HTML, CSS, and JavaScript files that require no server-side processing. The whole project has two major intentions to implement:
 
 * Hosting a static website on S3 and
@@ -44,15 +44,17 @@ In this project, you will deploy a static website to AWS by performing the follo
 * You will speed up content delivery using AWS’s content distribution network service, CloudFront.
 * You will access your website in a browser using the unique CloudFront endpoint.
 
-## Prerequisites:
+
+
+## Prerequisites: [🔝](#project-1)
 * AWS Account
 * [Student-ready starter code](https://drive.google.com/open?id=15vQ7-utH7wBJzdAX3eDmO9ls35J5_sEQ) - Download and unzip this file.
-## Topics Covered:
+## Topics Covered: [🔝](#project-1)
 * S3 bucket creation
 * S3 bucket configuration
 * Website distribution via CloudFront
 * Access website via web browser
-## Dependencies
+## Dependencies [🔝](#project-1)
 Cloud Services
 * Amazon Web Services S3 - Resource hosting and deployments
 * AWS CloudFront - CDN for SPA
@@ -73,7 +75,7 @@ Frameworks:
 * Node.js (Javascript) (Backend)
 
 
-# 2- Create S3 Bucket
+# 2- Create S3 Bucket [🔝](#project-1)
 1- Navigate to the “AWS Management Console” page, type “S3” in the “Find Services” box and then select “S3”.
 
   ![Navigate to the S3 service](./image/1.png)Navigate to the S3 service
@@ -102,7 +104,7 @@ Frameworks:
  ![Bucket](./image/5.png)
 Bucket `my-014421265158-bucket` configuration and content
 
-# 3- Upload files to S3 Bucket
+# 3- Upload files to S3 Bucket [🔝](#project-1)
 1- Once the bucket is open to its contents, click the “Upload” button.
 
  ![Click on the Upload button](./image/6.png)*Click on the **Upload** button*
@@ -119,7 +121,7 @@ Do not select the `udacity-starter-website` folder. Instead, upload its content 
  ![Successfully uploaded starter code in the bucket](./image/9.png)
 *Successfully uploaded starter code in the bucket*
 
-# 4- Secure Bucket via IAM
+# 4- Secure Bucket via IAM [🔝](#project-1)
 1- Click on the “Permissions” tab.
  
  ![Go to the Permissions tab. See that the bucket allows public access for hosting.](./image/10.png)*Go to the **Permissions** tab. See that the bucket allows public access for hosting.*
@@ -152,7 +154,7 @@ In such a case, once we set up the ***CloudFront distribution***, it will automa
 
 The CloudFront service will make this happen by using the **Origin Access Identity** user.
 
-# 5- Configure S3 Bucket
+# 5- Configure S3 Bucket [🔝](#project-1)
 1- Go to the **Properties** tab and then scroll down to edit the **Static website hosting** section.
 ![Go to the Properties tab
 ](12.png)
@@ -176,7 +178,7 @@ You must now be able to view the [website endpoint](https://docs.aws.amazon.com/
 *Copy the website endpoint for future use.*
 
 
-# 6- Distribute Website via CloudFront
+# 6- Distribute Website via CloudFront [🔝](#project-1)
 1- Select “Services” from the top left corner and enter “cloud front” in the “Find a service by name or feature” text box and select “CloudFront”.
 ![1- Select “Services” from the top left corner and enter “cloud front” in the “Find a service by name or feature” text box and select “CloudFront”.](./image/16.png)
 
@@ -215,7 +217,7 @@ Configurations - Cache behavior, key and origin requests
 In this example, the Domain Name value is `dgf7z6g067r6d.cloudfront.net`, but ***yours will be different***.
 
 
-# Files
+# Files [🔝](#project-1)
   * [Udacity Starter Website](./udacity-starter-website.zip)
   * [1-Introduction.md](./1-Introduction.md)
   * [2-CreateS3Bucket.md](./2-CreateS3Bucket.md)
@@ -225,4 +227,5 @@ In this example, the Domain Name value is `dgf7z6g067r6d.cloudfront.net`, but **
   * [6-DistributeWebsiteViaCloudFront.md](./6-DistributeWebsiteViaCloudFront.md)
   * [README.md](./README.md)
 
+ [🔝](#project-1)
 
