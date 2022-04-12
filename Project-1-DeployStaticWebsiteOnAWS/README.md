@@ -210,7 +210,7 @@ In this example, the Domain Name value is `dgf7z6g067r6d.cloudfront.net`, but **
 
 
 # Files [🔝](#project-1)
-  * [Udacity Starter Website](./udacity-starter-website.zip)
+  * [Udacity Starter Website *ZIP*](./udacity-starter-website.zip) [Files](./Project-1-DeployStaticWebsiteOnAWS)
   * [README.md](./README.md)
     * [1-Introduction.md](./1-Introduction.md)
     * [2-CreateS3Bucket.md](./2-CreateS3Bucket.md)
