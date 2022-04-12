@@ -11,3 +11,18 @@
 >    * [5-ConfigureS3Bucket](./Project-1-DeployStaticWebsiteOnAWS/5-ConfigureS3Bucket.md)
 >    * [6-DistributeWebsiteViaCloudFront](./Project-1-DeployStaticWebsiteOnAWS/6-DistributeWebsiteViaCloudFront.md)
 >  * [Download Udacity Starter Website](./Project-1-DeployStaticWebsiteOnAWS/udacity-starter-website.zip)
+## [Project 1 Solution](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md)
+* [Project 1 :Deploy Static Website on AWS](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#project-1-deploy-static-website-on-aws)
+  * [1- Website Files](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#1--website-files-)
+    * [1-The S3 bucket is created.](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#1-the-s3-bucket-is-created)
+    * [2-all the website Files uploaded to the newly created S3 bucket.](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#2-all-the-website-files-uploaded-to-the-newly-created-s3-bucket-)
+    * [3- The S3 bucket is conFigured to support static website hosting.](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#3--the-s3-bucket-is-configured-to-support-static-website-hosting-)
+    * [4- The S3 bucket has an IAM bucket policy that makes the bucket contents publicly accessible.](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#4--the-s3-bucket-has-an-iam-bucket-policy-that-makes-the-bucket-contents-publicly-accessible-)
+    
+  * [2- Website Distribution](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#2--website-distribution-)
+    * [CloudFront has been conFigured to retrieve and distribute website Files.](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#cloudfront-has-been-configured-to-retrieve-and-distribute-website-files-)
+  * [3- Access Website In Web Browser](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#3--access-website-in-web-browser-)
+    * [1-Access the`https` secured website **without appending** `/index.html` at the end: `https://d25g3zasxgsb3t.cloudfront.net`](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#1--open-a-web-browser-like-google-chrome-and-paste-the-copied-cloudfront-domain-name-httpsd25g3zasxgsb3tcloudfrontnet-without-appending-indexhtml-at-the-end-the-cloudfront-domain-name--httpsd25g3zasxgsb3tcloudfrontnet-show-the-content-of-the-default-home-page-as-shown-below-)
+    * [2- Access the website via website-endpoint:`http://first-udacity-website.s3-website.eu-west-3.amazonaws.com/`](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#2--access-the-website-via-website-endpointhttpfirst-udacity-websites3-websiteeu-west-3amazonawscom-)
+    * [3- Access the bucket object via its S3 object URL:`https://first-udacity-website.s3.amazonaws.com/index.html`](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#3--access-the-bucket-object-via-its-s3-object-url-httpsfirst-udacity-websites3amazonawscomindexhtml-)
+    
