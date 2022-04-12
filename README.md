@@ -3,7 +3,7 @@
 [[Program Link](https://www.udacity.com/course/cloud-dev-ops-nanodegree--nd9991)] [[Program Syllabus](https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Cloud+DevOps+Nanodegree+program+Syllabus.pdf)]
 ## Project 1
  ## [Deploy Static Website on AWS](./Project-1-DeployStaticWebsiteOnAWS/README.md)
->  * [README](./README.md)
+>  * [README](./Project-1-DeployStaticWebsiteOnAWS/README.md)
 >    * [1-Introduction](./Project-1-DeployStaticWebsiteOnAWS/1-Introduction.md)
 >    * [2-CreateS3Bucket](./Project-1-DeployStaticWebsiteOnAWS/2-CreateS3Bucket.md)
 >    * [3-UploadFilesToS3Bucket](./Project-1-DeployStaticWebsiteOnAWS/3-UploadFilesToS3Bucket.md)
