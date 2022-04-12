@@ -1,5 +1,5 @@
 # Udacity DevOps
-# Project 1 :Deploy Static Website on AWS
+# Project 1 Solution : Deploy Static Website on AWS
 ## Table Of Contents
 * [Project 1 :Deploy Static Website on AWS](#project-1-deploy-static-website-on-aws)
   * [1- Website Files](#1--website-files)
