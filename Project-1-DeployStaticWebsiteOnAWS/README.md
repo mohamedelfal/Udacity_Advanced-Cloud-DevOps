@@ -14,6 +14,7 @@
 * [4- Secure Bucket Via IAM](#4--secure-bucket-via-iam-)
 * [5- Configure S3 Bucket](#5--configure-s3-bucket-)
 * [6- Distribute Website Via Cloudfront](#6--distribute-website-via-cloudfront-)
+* [project 1 rubric](#project-1-rubric-)
 * [Files](#files-)
 
 * [Project 1 Solution : Deploy Static Website on AWS](#project-1-solution--deploy-static-website-on-aws)
@@ -225,6 +226,8 @@ Configurations - Cache behavior, key and origin requests
 ![In this example, the Domain Name value is `dgf7z6g067r6d.cloudfront.net`, but ***yours will be different***.](./image/21.png)
 In this example, the Domain Name value is `dgf7z6g067r6d.cloudfront.net`, but ***yours will be different***.
 
+ # [Project 1 Rubric ](./image/Project1Rubric.png)
+ ![Project Rubric.](./image/Project1Rubric.png)
 
 # Files [🔝](#project-1)
   * [Udacity Starter Website *ZIP*](./udacity-starter-website.zip) [Files](./udacity-starter-website/)
