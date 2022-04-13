@@ -32,6 +32,7 @@
     * [1-Access the`https` secured website **without appending** `/index.html` at the end: `https://d25g3zasxgsb3t.cloudfront.net`](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#1--open-a-web-browser-like-google-chrome-and-paste-the-copied-cloudfront-domain-name-httpsd25g3zasxgsb3tcloudfrontnet-without-appending-indexhtml-at-the-end-the-cloudfront-domain-name--httpsd25g3zasxgsb3tcloudfrontnet-show-the-content-of-the-default-home-page-as-shown-below-)
     * [2- Access the website via website-endpoint:`http://first-udacity-website.s3-website.eu-west-3.amazonaws.com/`](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#2--access-the-website-via-website-endpointhttpfirst-udacity-websites3-websiteeu-west-3amazonawscom-)
     * [3- Access the bucket object via its S3 object URL:`https://first-udacity-website.s3.amazonaws.com/index.html`](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#3--access-the-bucket-object-via-its-s3-object-url-httpsfirst-udacity-websites3amazonawscomindexhtml-)
+* [***`Project 1 : WebSite`***](https://mohamedelfal.github.io/UdacityAdvancedCloudDevOps/Project-1-DeployStaticWebsiteOnAWS/udacity-starter-website/)
     
 ## project 2 [🔝](#advanced-cloud-devops)
 ## [Deploy a high-availability web app using CloudFormation](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/)
