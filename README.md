@@ -26,3 +26,15 @@
     * [2- Access the website via website-endpoint:`http://first-udacity-website.s3-website.eu-west-3.amazonaws.com/`](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#2--access-the-website-via-website-endpointhttpfirst-udacity-websites3-websiteeu-west-3amazonawscom-)
     * [3- Access the bucket object via its S3 object URL:`https://first-udacity-website.s3.amazonaws.com/index.html`](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#3--access-the-bucket-object-via-its-s3-object-url-httpsfirst-udacity-websites3amazonawscomindexhtml-)
     
+# project 2
+## Deploy a high-availability web app using CloudFormation
+
+## table of contents
+>* [1-Project Introduction](./Project-2-Deploy a high-AvailabilityWebAppUsingCloudFormation/README.md#1-project-introduction-)
+>> * [Starter Code](./Project-2-Deploy a high-AvailabilityWebAppUsingCloudFormation/README.md#starter-code)
+>* [2-Problem](./Project-2-Deploy a high-AvailabilityWebAppUsingCloudFormation/README.md#2-problem-)
+>> * [Scenario](./Project-2-Deploy a high-AvailabilityWebAppUsingCloudFormation/README.md#scenario)
+>* [3-Project Requirements](./Project-2-Deploy a high-AvailabilityWebAppUsingCloudFormation/README.md#3-project-requirements-)
+>> * [Server Specs](./Project-2-Deploy a high-AvailabilityWebAppUsingCloudFormation/README.md#server-specs)
+>* [4-Other Considerations](./Project-2-Deploy a high-AvailabilityWebAppUsingCloudFormation/README.md#4-other-considerations-)
+>> * [Other Considerations](./Project-2-Deploy a high-AvailabilityWebAppUsingCloudFormation/README.md#other-considerations)
