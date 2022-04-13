@@ -11,6 +11,7 @@
 >> * [Server Specs](#server-specs)
 >* [4-Other Considerations](#4-other-considerations-)
 >> * [Other Considerations](#other-considerations)
+>* [project 2 rubric ](#project-2-rubric-)
 
 In this project, you’ll deploy web servers for a highly available web app using CloudFormation.
 
@@ -104,4 +105,6 @@ This bastion host would be on a Public Subnet with **`port 22`** open only to yo
 
 ***Last thing***: Remember to **delete your CloudFormation stack** when you're done to avoid recurring charges!
 
+## [Project 2 Rubric ](./image/Project2Rubric.png)
+![Project 2 Rubric ](./image/Project2Rubric.png)
 # [ ↩ ](https://github.com/mohamedelfal/UdacityAdvancedCloudDevOps/) [🔝](#project-2)
