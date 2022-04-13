@@ -17,6 +17,7 @@
 >    * [4-SecureBucketViaIAM](./Project-1-DeployStaticWebsiteOnAWS/4-SecureBucketViaIAM.md)
 >    * [5-ConfigureS3Bucket](./Project-1-DeployStaticWebsiteOnAWS/5-ConfigureS3Bucket.md)
 >    * [6-DistributeWebsiteViaCloudFront](./Project-1-DeployStaticWebsiteOnAWS/6-DistributeWebsiteViaCloudFront.md)
+>  * [Project 1 Rubric](https://github.com/mohamedelfal/UdacityAdvancedCloudDevOps/blob/main/Project-1-DeployStaticWebsiteOnAWS/image/Project1Rubric.png) 
 >  * [Download Udacity Starter Website](./Project-1-DeployStaticWebsiteOnAWS/udacity-starter-website.zip) [Download from GitHub](/Project-1-DeployStaticWebsiteOnAWS/udacity-starter-website/)
 ## [Project 1 Solution](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md) [🔝](#advanced-cloud-devops)
 * [Project 1 :Deploy Static Website on AWS](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#project-1-deploy-static-website-on-aws)
