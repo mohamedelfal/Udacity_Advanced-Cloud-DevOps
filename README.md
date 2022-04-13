@@ -1,6 +1,13 @@
 # Advanced Cloud DevOps 
 ## Nanodegree Program by Udacity 
 [[Program Link](https://www.udacity.com/course/cloud-dev-ops-nanodegree--nd9991)] [[Program Syllabus](https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Cloud+DevOps+Nanodegree+program+Syllabus.pdf)]
+
+# TABLE OF CONTENTS
+* [Project 1: Deploy Static Website on AWS](#deploy-static-website-on-aws)
+* [Project 1 Solution](#project-1-solution)
+* [Project 2: Deploy a high-availability web app using CloudFormation](#deploy-a-high-availability-web-app-using-cloudformation)
+
+
 ## Project 1
  ## [Deploy Static Website on AWS](./Project-1-DeployStaticWebsiteOnAWS/README.md)
 >  * [README](./Project-1-DeployStaticWebsiteOnAWS/README.md)
@@ -27,12 +34,13 @@
     * [3- Access the bucket object via its S3 object URL:`https://first-udacity-website.s3.amazonaws.com/index.html`](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#3--access-the-bucket-object-via-its-s3-object-url-httpsfirst-udacity-websites3amazonawscomindexhtml-)
     
 # project 2
-## Deploy a high-availability web app using CloudFormation
-* [1-Project Introduction](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#1-project-introduction-)
- * [Starter Code](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#starter-code)
-* [2-Problem](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#2-problem-)
- * [Scenario](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#scenario)
-* [3-Project Requirements](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#3-project-requirements-)
- * [Server Specs](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#server-specs)
-* [4-Other Considerations](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#4-other-considerations-)
- * [Other Considerations](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#other-considerations)
+## [Deploy a high-availability web app using CloudFormation](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/)
+* [README](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md)
+  * [1-Project Introduction](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#1-project-introduction-)
+    * [Starter Code](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#starter-code)
+  * [2-Problem](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#2-problem-)
+    * [Scenario](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#scenario)
+  * [3-Project Requirements](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#3-project-requirements-)
+    * [Server Specs](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#server-specs)
+  * [4-Other Considerations](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#4-other-considerations-)
+    * [Other Considerations](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#other-considerations)
