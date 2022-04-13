@@ -1,20 +1,20 @@
-
+# [ ↩ ](https://github.com/mohamedelfal/UdacityAdvancedCloudDevOps/)
 # project 2
 ## Deploy a high-availability web app using CloudFormation
 
 ## table of contents
->* [1-Project Introduction](#1-project-introduction)
+>* [1-Project Introduction](#1-project-introduction-)
 >> * [Starter Code](#starter-code)
->* [2-Problem](#2-problem)
+>* [2-Problem](#2-problem-)
 >> * [Scenario](#scenario)
->* [3-Project Requirements](#3-project-requirements)
+>* [3-Project Requirements](#3-project-requirements-)
 >> * [Server Specs](#server-specs)
->* [4-Other Considerations](#4-other-considerations)
+>* [4-Other Considerations](#4-other-considerations-)
 >> * [Other Considerations](#other-considerations)
 
 In this project, you’ll deploy web servers for a highly available web app using CloudFormation.
 
-# 1-Project Introduction 
+# 1-Project Introduction [🔝](#project-2)
 As your final project, you'll be faced with a real scenario.
 
 Creating this project will give you the hands-on experience you need to confidently talk about infrastructure as code. We have chosen a realistic scenario where you will deploy a dummy application (a sample JavaScript or HTML file) to the Apache Web Server running on an EC2 instance.
@@ -32,7 +32,7 @@ The same repo has the resources used in the lesson demos/exercises for a quick r
 
 <br>
 
-# 2-Problem
+# 2-Problem [🔝](#project-2)
 
 ## Scenario
 
@@ -48,7 +48,7 @@ This needs to be automated so that the infrastructure can be discarded as soon a
 
 Though, it is not the part of the project rubric.
 
-# 3-Project Requirements
+# 3-Project Requirements [🔝](#project-2)
 
 ## Server specs
 
@@ -75,7 +75,7 @@ Outbound, it will only be using `port 80` to reach the internal servers.
 * 5-One of the output exports of the **CloudFormation** script should be the public URL of the **LoadBalancer. Bonus points** if you add `http://` in front of the load balancer `DNS Name` in the output, for convenience.
 
 
-# 4-Other Considerations
+# 4-Other Considerations [🔝](#project-2)
 
 ## Other Considerations
 
@@ -104,3 +104,4 @@ This bastion host would be on a Public Subnet with **`port 22`** open only to yo
 
 ***Last thing***: Remember to **delete your CloudFormation stack** when you're done to avoid recurring charges!
 
+# [ ↩ ](https://github.com/mohamedelfal/UdacityAdvancedCloudDevOps/) [🔝](#project-2)
