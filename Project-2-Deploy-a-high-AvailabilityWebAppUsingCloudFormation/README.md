@@ -1,8 +1,10 @@
 # [ ↩ ](https://github.com/mohamedelfal/UdacityAdvancedCloudDevOps/)
-# project 2
-## Deploy a high-availability web app using CloudFormation
+ # Udacity Advanced Cloud DevOps
 
-## table of contents
+# project 2: Deploy a high-availability web app using CloudFormation
+
+
+## Table of Contents
 >* [1-Project Introduction](#1-project-introduction-)
 >> * [Starter Code](#starter-code)
 >* [2-Problem](#2-problem-)
@@ -13,6 +15,8 @@
 >> * [Other Considerations](#other-considerations)
 >* [project 2 rubric ](#project-2-rubric-)
 
+
+# project 2: Deploy a high-availability web app using CloudFormation
 In this project, you’ll deploy web servers for a highly available web app using CloudFormation.
 
 # 1-Project Introduction [🔝](#project-2)
