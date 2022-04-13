@@ -47,6 +47,6 @@
   * [4-Other Considerations](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#4-other-considerations-)
     * [Other Considerations](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#other-considerations)
 
-
+* [Project 2 Rubric](https://github.com/mohamedelfal/UdacityAdvancedCloudDevOps/blob/main/Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/image/Project2Rubric.png)
 
 # [🔝](#advanced-cloud-devops)
