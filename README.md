@@ -4,11 +4,11 @@
 
 # TABLE OF CONTENTS
 * [Project 1: Deploy Static Website on AWS](#deploy-static-website-on-aws)
-* [Project 1 Solution](#project-1-solution)
+* [Project 1 Solution](#project-1-solution-)
 * [Project 2: Deploy a high-availability web app using CloudFormation](#deploy-a-high-availability-web-app-using-cloudformation)
 
 
-## Project 1
+## Project 1 [🔝](#advanced-cloud-devops)
  ## [Deploy Static Website on AWS](./Project-1-DeployStaticWebsiteOnAWS/README.md)
 >  * [README](./Project-1-DeployStaticWebsiteOnAWS/README.md)
 >    * [1-Introduction](./Project-1-DeployStaticWebsiteOnAWS/1-Introduction.md)
@@ -18,7 +18,7 @@
 >    * [5-ConfigureS3Bucket](./Project-1-DeployStaticWebsiteOnAWS/5-ConfigureS3Bucket.md)
 >    * [6-DistributeWebsiteViaCloudFront](./Project-1-DeployStaticWebsiteOnAWS/6-DistributeWebsiteViaCloudFront.md)
 >  * [Download Udacity Starter Website](./Project-1-DeployStaticWebsiteOnAWS/udacity-starter-website.zip) [Download from GitHub](/Project-1-DeployStaticWebsiteOnAWS/udacity-starter-website/)
-## [Project 1 Solution](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md)
+## [Project 1 Solution](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md) [🔝](#advanced-cloud-devops)
 * [Project 1 :Deploy Static Website on AWS](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#project-1-deploy-static-website-on-aws)
   * [1- Website Files](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#1--website-files-)
     * [1-The S3 bucket is created.](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#1-the-s3-bucket-is-created)
@@ -33,7 +33,7 @@
     * [2- Access the website via website-endpoint:`http://first-udacity-website.s3-website.eu-west-3.amazonaws.com/`](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#2--access-the-website-via-website-endpointhttpfirst-udacity-websites3-websiteeu-west-3amazonawscom-)
     * [3- Access the bucket object via its S3 object URL:`https://first-udacity-website.s3.amazonaws.com/index.html`](./Project-1-DeployStaticWebsiteOnAWS/project1solution.md#3--access-the-bucket-object-via-its-s3-object-url-httpsfirst-udacity-websites3amazonawscomindexhtml-)
     
-# project 2
+## project 2 [🔝](#advanced-cloud-devops)
 ## [Deploy a high-availability web app using CloudFormation](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/)
 * [README](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md)
   * [1-Project Introduction](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#1-project-introduction-)
@@ -44,3 +44,7 @@
     * [Server Specs](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#server-specs)
   * [4-Other Considerations](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#4-other-considerations-)
     * [Other Considerations](./Project-2-Deploy-a-high-AvailabilityWebAppUsingCloudFormation/README.md#other-considerations)
+
+
+
+# [🔝](#advanced-cloud-devops)
