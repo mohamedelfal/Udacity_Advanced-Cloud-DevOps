@@ -13,7 +13,7 @@ UserData:
         wget -P ../../var/www/html https://s3.us-east-2.amazonaws.com/test-udagram-1/index.html
   ```
 
-> * code explanation(
+> * code explanation
 
     #!/bin/bash
 This line indicated that we are going to use the bash engine
