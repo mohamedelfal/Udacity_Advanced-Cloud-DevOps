@@ -19,7 +19,8 @@ UserData:
 This line indicated that we are going to use the bash engine
 
     apt update -y
-To ensure that all of your software packages are up to date, perform a quick software update on your instance. This process may take a few minutes, but it is important to make sure that you have the latest security updates and bug fixes
+To ensure that all of your software packages are up to date, perform a quick software update on your instance.  
+This process may take a few minutes, but it is important to make sure that you have the latest security updates and bug fixes
 
     apt install -y httpd
 install the Apache web server
@@ -28,7 +29,8 @@ install the Apache web server
 Start the Apache web server
 
     wget -P ../../var/www/html https://s3.us-east-2.amazonaws.com/test-udagram-1/index.html
-Download an HTML file that I store in a S3 bucket. In this case you will need to create your own S3 bucket, upload your HTML file and make the file publicly accessible
+Download an HTML file that I store in a S3 bucket.  
+In this case you will need to create your own S3 bucket, upload your HTML file and make the file publicly accessible
 
 To read more about this you can use this links:
 * 1- [Tutorial: Install a LAMP Web Server with the Amazon Linux AMI - Amazon Elastic Compute Cloud](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/install-LAMP.html)
