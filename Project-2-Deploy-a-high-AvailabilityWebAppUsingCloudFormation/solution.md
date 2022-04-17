@@ -61,9 +61,13 @@ There are 2 ways to troubleshoot the servers and the UserData:
 
 To troubleshoot issues on your EC2 instance bootstrap without having to access the instance through SSH, you can add code to your user-data bash script that redirects all the output both to the /var/log/user-data.log and to /dev/console. When the code is executed, you can see your user-data invocation logs in your console.
 
-* Please look at these tutorials:
-[Log Your EC2 Linux User-Data and Then Ship It to the Console Logs](https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-log-user-data/)
-[How do I log my EC2 Linux user-data and ship it to the console logs?](https://youtu.be/unMiTRw8JVE)
+* Please look at these tutorials: 
+* 
+[Log Your EC2 Linux User-Data and Then Ship It to the Console Logs](https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-log-user-data/) 
+
+[How do I log my EC2 Linux user-data and ship it to the console logs?  ](https://youtu.be/unMiTRw8JVE)
+[![How do I log my EC2 Linux user-data and ship it to the console logs?](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/unMiTRw8JVE)
+
 ## resources
 * [1](https://github.com/andresaaap?tab=repositories)
 * [2](https://andresaaap.medium.com/deploy-a-high-availability-web-app-using-cloudformation-project-faq-udacity-cloud-devops-53a115fde07e)
