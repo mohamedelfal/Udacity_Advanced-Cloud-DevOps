@@ -35,3 +35,6 @@ To read more about this you can use this links:
 * 2- https://docs.aws.amazon.com/efs/latest/ug/wt2-apache-web-server.html
 * 3- https://www.2daygeek.com/start-stop-restart-enable-reload-apache-httpd-web-server-service-in-linux/
 
+## resources
+https://github.com/andresaaap?tab=repositories
+https://andresaaap.medium.com/deploy-a-high-availability-web-app-using-cloudformation-project-faq-udacity-cloud-devops-53a115fde07e
