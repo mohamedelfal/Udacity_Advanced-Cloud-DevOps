@@ -36,5 +36,5 @@ To read more about this you can use this links:
 * 3- https://www.2daygeek.com/start-stop-restart-enable-reload-apache-httpd-web-server-service-in-linux/
 
 ## resources
-https://github.com/andresaaap?tab=repositories
-https://andresaaap.medium.com/deploy-a-high-availability-web-app-using-cloudformation-project-faq-udacity-cloud-devops-53a115fde07e
+* [1](https://github.com/andresaaap?tab=repositories)
+* [2](https://andresaaap.medium.com/deploy-a-high-availability-web-app-using-cloudformation-project-faq-udacity-cloud-devops-53a115fde07e)
