@@ -43,6 +43,27 @@ To read more about this you can use this links:
 * The second test is to manually verify in the AWS console that every resource created has the correct configuration and values
 * The third test it to deploy some simple server resources in that network, like a server in the public subnet and make sure that you can connect to it
 
+# X
+so how would I put an index.html in my code or somewhere else so that when I enter my load balancer (on the internet in real life) and after it directs me into one of my private subnets and into one of my servers that its message will show up
+
+* The UserData in the LaunchConfiguration needs some commands to download the index.html from the s3 bucket into the instance. these commands are executed in the instance and that how it works. Please look at question 3 https://medium.com/@andresaaap/deploy-a-high-availability-web-app-using-cloudformation-project-faq-udacity-cloud-devops-53a115fde07e
+
+* does the bucket need to be created in the cloud formation script or can it just be created in the console?  
+The bucket is not created in the cloudformation script, do it manually
+
+
+*  I am having problems with the load balancer or with the EC2 instance. 
+ I don’t know how to verify that the commands in the UserData executed correctly and if the problems are in the EC2 instances.
+There are 2 ways to troubleshoot the servers and the UserData:
+* Test the UserData first by creating a EC2 instances with the same specifications in the LaunchConfiguration. Launch the instance in the EC2 dashboard, NOT in CloudFormation.
+* Configure your UserData in your CloudFormation script so that you can see the logs of the invocation of the UserData in the System Log.
+
+
+To troubleshoot issues on your EC2 instance bootstrap without having to access the instance through SSH, you can add code to your user-data bash script that redirects all the output both to the /var/log/user-data.log and to /dev/console. When the code is executed, you can see your user-data invocation logs in your console.
+
+* Please look at these tutorials:
+[Log Your EC2 Linux User-Data and Then Ship It to the Console Logs](https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-log-user-data/)
+[How do I log my EC2 Linux user-data and ship it to the console logs?](https://youtu.be/unMiTRw8JVE)
 ## resources
 * [1](https://github.com/andresaaap?tab=repositories)
 * [2](https://andresaaap.medium.com/deploy-a-high-availability-web-app-using-cloudformation-project-faq-udacity-cloud-devops-53a115fde07e)
