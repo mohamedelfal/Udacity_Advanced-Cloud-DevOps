@@ -37,6 +37,12 @@ To read more about this you can use this links:
 * 2- [Walkthrough: Set Up an Apache Web Server and Serve Amazon EFS Files - Amazon Elastic File System](https://docs.aws.amazon.com/efs/latest/ug/wt2-apache-web-server.html)
 * 3- [How To Start / Stop / Restart / Enable / Reload The Apache (HTTPD) Service In Linux?](https://www.2daygeek.com/start-stop-restart-enable-reload-apache-httpd-web-server-service-in-linux/)
 
+
+* check network is still setup correctly. Should be able to ping the elastic IP’s
+* The first test to ensure that the network is setup correctly is to verify that every resource was successfully created
+* The second test is to manually verify in the AWS console that every resource created has the correct configuration and values
+* The third test it to deploy some simple server resources in that network, like a server in the public subnet and make sure that you can connect to it
+
 ## resources
 * [1](https://github.com/andresaaap?tab=repositories)
 * [2](https://andresaaap.medium.com/deploy-a-high-availability-web-app-using-cloudformation-project-faq-udacity-cloud-devops-53a115fde07e)
