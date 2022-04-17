@@ -66,7 +66,7 @@ To troubleshoot issues on your EC2 instance bootstrap without having to access t
 [Log Your EC2 Linux User-Data and Then Ship It to the Console Logs](https://aws.amazon.com/premiumsupport/knowledge-center/ec2-linux-log-user-data/) 
 
 [How do I log my EC2 Linux user-data and ship it to the console logs?  ](https://youtu.be/unMiTRw8JVE)
-[![How do I log my EC2 Linux user-data and ship it to the console logs?](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/unMiTRw8JVE)
+[![How do I log my EC2 Linux user-data and ship it to the console logs?](./image/youtube.jpg)](https://youtu.be/unMiTRw8JVE)
 
 ## resources
 * [1](https://github.com/andresaaap?tab=repositories)
