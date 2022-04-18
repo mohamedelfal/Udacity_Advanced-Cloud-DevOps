@@ -158,9 +158,6 @@ How to test a UserData for a LaunchConfiguration in AWS?
 https://www.youtube.com/watch?v=xOqEQdc_eRo&t=7s   
 
 
-
-
-
 ## resources
 * [1](https://github.com/andresaaap?tab=repositories)
 * [2](https://andresaaap.medium.com/deploy-a-high-availability-web-app-using-cloudformation-project-faq-udacity-cloud-devops-53a115fde07e)
