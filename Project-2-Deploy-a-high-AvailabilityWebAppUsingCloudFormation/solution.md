@@ -100,6 +100,7 @@ Listener Checklist
 The Listener has the correct type   
 Has a Properties attribute   
 In the Properties, it has the DefaultActions. For example:   
+![image](https://user-images.githubusercontent.com/100445644/163737147-134ce195-a1ad-4acd-a75a-7b3208ee9516.png)
 
 In the Properties, it has the LoadBalancerArn   
 In the Properties, it has the Protocol equal to HTTP   
@@ -109,7 +110,9 @@ The Listener is referenced in the ListenerRule with the property ListenerArn
 Listener Rule Checklist   
 The Listener Rule has the correct type   
 Has a Properties attribute   
-In the Properties, it has the DefaultActions. For example:   
+In the Properties, it has the DefaultActions. For example: 
+
+![image](https://user-images.githubusercontent.com/100445644/163737137-28981a1f-22f3-4fcf-b30e-3127e6859052.png)
 
 In the Properties, it has the Conditions   
 In the Properties, it has the ListenerArn   
@@ -121,6 +124,8 @@ Has a Properties attribute
 In the Properties, it has the UserData   
 You tested the UserData in an EC2 instance and it works   
 You included at the top of the UserData the #!/bin/bash   
+
+![image](https://user-images.githubusercontent.com/100445644/163737116-b254ba26-275d-4c5b-a0a5-f9fcaf73e661.png)
 
 In the Properties, it has the ImageId   
 In the Properties, it has the InstanceType   
@@ -135,7 +140,18 @@ I want to show this good and short solution:
 
 How to fix in cloudformation that my instances say unhealthy 502 or the logs say “Restart services during package updates without asking”?   
 Use this code in the LaunchConfiguration   
-
+```
+UserData: 
+    Fn::Base64: !Sub |
+        #!/bin/bash -xe
+        exec > >(tee /var/log/user-data.log|logger -t user-data -s 2>/dev/console) 2>&1
+        apt update -y
+        apt install -y apache2
+        systemctl start apache2
+        systemctl enable apache2
+        rm ../../var/www/html/index.html
+        wget -P ../../var/www/html https://s3.us-east-2.amazonaws.com/test-udagram-1/index.html
+```
 The make sure that you are using an Image of Ubuntu. Select the correct one for your Zone   
 
 How to test a UserData for a LaunchConfiguration in AWS?   
