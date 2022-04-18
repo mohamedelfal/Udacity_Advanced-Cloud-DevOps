@@ -109,6 +109,25 @@ This bastion host would be on a Public Subnet with **`port 22`** open only to yo
 
 ***Last thing***: Remember to **delete your CloudFormation stack** when you're done to avoid recurring charges!
 
+# 5- Project Submission
+## Deploy a high-availability web app using CloudFormation
+
+In this project, you’ll deploy web servers for a highly available web app using CloudFormation.   
+You will write the code that creates and deploys the infrastructure and application for an Instagram-like app from the ground up.   
+You will begin with deploying the networking components, followed by servers, security roles and software. The procedure you follow here will become part of your portfolio of cloud projects.   
+You’ll do it exactly as it’s done on the job - following best practices and scripting as much as possible.
+
+Gather your files and submit them via a zipped folder or a GitHub link.
+
+Be sure you have completed all of the project requirements.
+
+Also, check your work against the [rubric](#project-2-rubric-) [here](./image/Project2Rubric.png) before submitting!
+
+
+
+
+
+
 ## [Project 2 Rubric ](./image/Project2Rubric.png)
 ![Project 2 Rubric ](./image/Project2Rubric.png)
 # [ ↩ ](https://github.com/mohamedelfal/UdacityAdvancedCloudDevOps/) [🔝](#project-2)
