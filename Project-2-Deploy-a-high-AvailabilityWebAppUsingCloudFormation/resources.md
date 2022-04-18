@@ -67,7 +67,7 @@ To troubleshoot issues on your EC2 instance bootstrap without having to access t
 
 [How do I log my EC2 Linux user-data and ship it to the console logs?  ](https://youtu.be/unMiTRw8JVE)
 
-[![How do I log my EC2 Linux user-data and ship it to the console logs?](./image/youtube.jpg)](https://youtu.be/unMiTRw8JVE)
+[![How do I log my EC2 Linux user-data and ship it to the console logs?](./image/youtube2.jpg)](https://youtu.be/unMiTRw8JVE)
 
 
 *  Unfortunately when I try to connect from my browser I keep getting a 504 Gateway Time-out for the Backup Load Balancer DNS Name url that is output
