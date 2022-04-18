@@ -77,69 +77,69 @@ Try to Access Logs for Your Application Load Balancer
 
 * [Access Logs for Your Application Load Balancer - Elastic Load Balancing](https://docs.aws.amazon.com/elasticloadbalancing/latest/application/load-balancer-access-logs.html)
 
-Load Balancer Checklist
-The load balancer has the correct type
-Has a Properties attribute
-In the Properties, it has the correct security groups, that allow traffic to and from it
-In the Properties, it has the correct subnets
-In the Properties, it has the type equal to application
-The load balancer has a related resource of type TargetGroup
-The load balancer has a related resource of type Listener
+## Load Balancer Checklist 
+The load balancer has the correct type  
+Has a Properties attribute  
+In the Properties, it has the correct security groups, that allow traffic to and from it  
+In the Properties, it has the correct subnets  
+In the Properties, it has the type equal to application  
+The load balancer has a related resource of type TargetGroup  
+The load balancer has a related resource of type Listener  
 The load balancer has a related resource of type ListenerRule
-Target Group Checklist
-The target group has the correct type
+Target Group Checklist   
+The target group has the correct type   
 Has a Properties attribute
-In the Properties, it has the VPCId
-In the Properties, it has the Port
-In the Properties, it has the Protocol equal to HTTP
+In the Properties, it has the VPCId   
+In the Properties, it has the Port   
+In the Properties, it has the Protocol equal to HTTP   
 The Target Group has a related resource of type Listener
-The Target Group has a related resource of type ListenerRule
+The Target Group has a related resource of type ListenerRule   
 The Target Group has a related resource of type AutoScalingGroup
-The Target Group is referenced in the AutoScalingGroup with the property TargetGroupARNs
-Listener Checklist
-The Listener has the correct type
-Has a Properties attribute
-In the Properties, it has the DefaultActions. For example:
+The Target Group is referenced in the AutoScalingGroup with the property TargetGroupARNs   
+Listener Checklist   
+The Listener has the correct type   
+Has a Properties attribute   
+In the Properties, it has the DefaultActions. For example:   
 
-In the Properties, it has the LoadBalancerArn
-In the Properties, it has the Protocol equal to HTTP
-In the Properties, it has the Port
-The Listener has a related resource of type ListenerRule
-The Listener is referenced in the ListenerRule with the property ListenerArn
-Listener Rule Checklist
-The Listener Rule has the correct type
-Has a Properties attribute
-In the Properties, it has the DefaultActions. For example:
+In the Properties, it has the LoadBalancerArn   
+In the Properties, it has the Protocol equal to HTTP   
+In the Properties, it has the Port   
+The Listener has a related resource of type ListenerRule   
+The Listener is referenced in the ListenerRule with the property ListenerArn   
+Listener Rule Checklist   
+The Listener Rule has the correct type   
+Has a Properties attribute   
+In the Properties, it has the DefaultActions. For example:   
 
-In the Properties, it has the Conditions
-In the Properties, it has the ListenerArn
+In the Properties, it has the Conditions   
+In the Properties, it has the ListenerArn   
 In the Properties, it has the Priority
-9. I am having a problem with the LaunchConfiguration
-LaunchConfiguration Checklist
-The LaunchConfiguration has the correct type
-Has a Properties attribute
-In the Properties, it has the UserData
-You tested the UserData in an EC2 instance and it works
-You included at the top of the UserData the #!/bin/bash
+9. I am having a problem with the LaunchConfiguration   
+LaunchConfiguration Checklist   
+The LaunchConfiguration has the correct type   
+Has a Properties attribute   
+In the Properties, it has the UserData   
+You tested the UserData in an EC2 instance and it works   
+You included at the top of the UserData the #!/bin/bash   
 
-In the Properties, it has the ImageId
-In the Properties, it has the InstanceType
-In the Properties, it has the BlockDeviceMappings
-In the Properties, it has the SecurityGroups
-In the Properties, it has the LaunchConfigurationName
-How to use multiple templates?
-You need to create one stack for each template with the create-stack command
-How to find the correct imageId for the LaunchConfiguration?
-This link will teach you: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/finding-an-ami.html
-I want to show this good and short solution:
+In the Properties, it has the ImageId   
+In the Properties, it has the InstanceType   
+In the Properties, it has the BlockDeviceMappings   
+In the Properties, it has the SecurityGroups   
+In the Properties, it has the LaunchConfigurationName   
+How to use multiple templates?   
+You need to create one stack for each template with the create-stack command   
+How to find the correct imageId for the LaunchConfiguration?   
+This link will teach you: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/finding-an-ami.html   
+I want to show this good and short solution:   
 
-How to fix in cloudformation that my instances say unhealthy 502 or the logs say “Restart services during package updates without asking”?
-Use this code in the LaunchConfiguration
+How to fix in cloudformation that my instances say unhealthy 502 or the logs say “Restart services during package updates without asking”?   
+Use this code in the LaunchConfiguration   
 
-The make sure that you are using an Image of Ubuntu. Select the correct one for your Zone
+The make sure that you are using an Image of Ubuntu. Select the correct one for your Zone   
 
-How to test a UserData for a LaunchConfiguration in AWS?
-https://www.youtube.com/watch?v=xOqEQdc_eRo&t=7s
+How to test a UserData for a LaunchConfiguration in AWS?   
+https://www.youtube.com/watch?v=xOqEQdc_eRo&t=7s   
 
 
 
