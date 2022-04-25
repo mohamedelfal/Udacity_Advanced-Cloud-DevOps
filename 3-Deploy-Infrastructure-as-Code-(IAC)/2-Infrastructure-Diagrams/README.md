@@ -6,3 +6,5 @@
 * [8-Diagramming-Availability-Zones](./8-Diagramming-Availability-Zones.md)
 
 * [10-Virtual-Private-Cloud-VPN](./10-Virtual-Private-Cloud-VPN.md)
+
+* [12-Public-vs-Private-Subnets](./12-Public-vs-Private-Subnets.md)
