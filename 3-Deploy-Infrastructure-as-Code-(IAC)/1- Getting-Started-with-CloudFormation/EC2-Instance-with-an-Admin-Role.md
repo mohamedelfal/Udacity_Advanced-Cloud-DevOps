@@ -26,18 +26,21 @@ Ensure to have a [default VPC](https://docs.aws.amazon.com/vpc/latest/userguide/
 **Step 2. Launch an EC2 instance**
 * Navigate to the EC2 dashboard, and select the Instances services in the left-hand navigation pane.
 * Use the Launch Instance wizard to launch an instance with the following configuration, and leave the remaining values as the defaults:
-Stage	Configuration	Value
-1.	Amazon Machine Image (AMI)	Amazon Linux 2 AMI (HVM), SSD Volume Type
-Note: You have chosen a Free Tier Eligible AMI
-2.	Instance Type	t2.micro
-3.	Configure Instance Details	
-a. Number of Instances	1
-b. Network	Default
-Select the VPC that was created in the previous step
-c. Subnet	Default
-4.	Storage	Default
-5.	Tags	Optional
-6.	Security Group	New.
+
+|Stage|Configuration|Value | 
+|:---|:---|:---|
+|1.	|Amazon Machine Image (AMI)	|Amazon Linux 2 AMI (HVM), SSD Volume Type
+Note: You have chosen a Free Tier Eligible AMI|
+|2.	|Instance Type	|t2.micro|
+|3.	|Configure Instance Details|	
+| |a. Number of Instances	|1|
+| |b. Network	|Default
+Select the VPC that was created in the previous step|
+| |c. Subnet	|Default|
+|4.	|Storage	|Default|
+|5.	|Tags	|Optional|
+|6.	|Security |Group	|New.|
+
 Limit access to your IP address only
         See a snapshot below:
 ![Allow-only-yourself-to-access-the-EC2-instance](./image/Allow-only-yourself-to-access-the-EC2-instance.png)
