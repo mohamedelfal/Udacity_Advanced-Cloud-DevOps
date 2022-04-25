@@ -15,7 +15,7 @@ Set up the necessary tools to get started with AWS CloudFormation and deploy you
 * 11
 * 12
 * 13
-* 14
+* 14-[Create a VPC: Automated](./Create-a-VPC-Automated.md)
 * 15
 * 16
 * 17
