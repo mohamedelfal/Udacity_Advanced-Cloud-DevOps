@@ -7,10 +7,10 @@ Now that you have created your first VPC to deploy servers, go ahead and try the
 1-You should have a VPC available in your account. Note the ID of a particular VPC, to use in your new template.
 VPCs are specific to a region.  
 
-![copy-VPC-ID](../image/copy-VPC-ID.png)
+![copy-VPC-ID](./image/copy-VPC-ID.png)
 
 2-You should have a public subnet available in the VPC selected above. Note down the subnet-ID.  
-![Copy-public-subnets-ID.png](../image/Copy-public-subnets-ID.png)
+![Copy-public-subnets-ID.png](./image/Copy-public-subnets-ID.png)
 
 **ToDo**
 Write a CloudFormation script that will create the following two Resources: AWS::EC2::SecurityGroup and AWS::EC2::Instance. See the snapshot below as a starter point.
@@ -35,7 +35,7 @@ In the same CloudFormation script: create a resource that deploys an EC2 Server 
 >*Note that AMI IDs are specific to the region, and keep changing with patches and updates.*
 
 See the snapshot below:  
-![Choose-the-AMI-ID.png](../image/Choose-the-AMI-ID.png)
+![Choose-the-AMI-ID.png](./image/Choose-the-AMI-ID.png)
 Choose the AMI ID
 
 * Your EC2 resource’s networking interface will need this property set to true: AssociatePublicIpAddress.  
@@ -61,7 +61,7 @@ Refer to the [documentation](https://docs.aws.amazon.com/AWSCloudFormation/lates
 To verify, you will use the public IP address of the newly launched EC2 instance, and paste it in a new browser window. You should see the Apache web server test page.
 >*Note: Use http ( not https! ), like so: http://public-ip-address*  
 
-![Sample-output .png](../image/Sample-output .png)
+![Sample-output .png](./image/Sample-output.png)
 Sample output at http://18.206.98.11/
 
 **Solution**
