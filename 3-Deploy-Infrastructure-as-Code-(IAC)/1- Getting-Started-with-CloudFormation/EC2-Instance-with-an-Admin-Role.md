@@ -29,19 +29,16 @@ Ensure to have a [default VPC](https://docs.aws.amazon.com/vpc/latest/userguide/
 
 |Stage|Configuration|Value | 
 |:---|:---|:---|
-|1.	|Amazon Machine Image (AMI)	|Amazon Linux 2 AMI (HVM), SSD Volume Type
-Note: You have chosen a Free Tier Eligible AMI|
-|2.	|Instance Type	|t2.micro|
-|3.	|Configure Instance Details|	
-| |a. Number of Instances	|1|
-| |b. Network	|Default
-Select the VPC that was created in the previous step|
-| |c. Subnet	|Default|
-|4.	|Storage	|Default|
-|5.	|Tags	|Optional|
-|6.	|Security |Group	|New.|
-
-Limit access to your IP address only
+|1. |Amazon Machine Image (AMI) |`Amazon Linux 2 AMI (HVM), SSD Volume Type` Note: You have chosen a Free Tier Eligible AMI|
+|2. |Instance Type |t2.micro|
+|3. |Configure Instance Details| |
+| |a. Number of Instances |1|
+| |b. Network |Default Select the VPC that was created in the previous step|
+| |c. Subnet |Default|
+|4. |Storage |Default|
+|5. |Tags |Optional|
+|6. |Security Group |New.
+Limit access to your IP address only|
         See a snapshot below:
 ![Allow-only-yourself-to-access-the-EC2-instance](./image/Allow-only-yourself-to-access-the-EC2-instance.png)
 Allow only yourself to access the EC2 instance
