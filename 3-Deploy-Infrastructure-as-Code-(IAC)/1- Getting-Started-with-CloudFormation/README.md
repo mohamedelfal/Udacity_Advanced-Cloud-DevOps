@@ -8,7 +8,7 @@ Set up the necessary tools to get started with AWS CloudFormation and deploy you
 * 4
 * 5
 * 6
-* 7-Set up Tools
+* 7-[Set up Tools](./Set-up-Tools.md)
 * 8
 * 9
 * 10
