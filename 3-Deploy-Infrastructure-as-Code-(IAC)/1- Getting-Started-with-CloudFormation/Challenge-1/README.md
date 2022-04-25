@@ -15,7 +15,7 @@ VPCs are specific to a region.
 **ToDo**  
 Write a CloudFormation script that will create the following two Resources: AWS::EC2::SecurityGroup and AWS::EC2::Instance. See the snapshot below as a starter point.
 
-![Template- resources- SecurityGroup-and-EC2-instance.png](./image/Template-resources-SecurityGroup-and-EC2-instance.png)
+![Template- resources- SecurityGroup-and-EC2-instance.png](./image/Template-%20resources-%20SecurityGroup-and-EC2-instance.png)
 Template with two resources: a SecurityGroup and an EC2 instance
 
 You will have to write the suitable properties for each resource. Inside one of the properties' fields, you will have to specify the VPC and Subnet ID. Details of the resource to create are:
