@@ -10,7 +10,7 @@ Set up the necessary tools to get started with AWS CloudFormation and deploy you
 * 6
 * 7-[Set up Tools](./Set-up-Tools.md)
 * 8
-* 9
+* 9-[Configuring AWS CLI](./Configuring-AWS-CLI.md)
 * 10
 * 11
 * 12
