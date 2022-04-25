@@ -15,7 +15,8 @@ aws configure --profile default
 Upon prompt: 
 * Paste the copied access key (access key id and secret access key). 
 * Enter the default region either as as `us-east-1` or `us-west-2`, even if you’re living closer to another available region. 
-* Enter the output format either as `json` or leave it blank 
+* Enter the output format either as `json` or leave it blank  
+ 
 **Verifying your Setup**  
 Verify the successful configuration of the AWS CLI, by running any AWS command:
 ```
