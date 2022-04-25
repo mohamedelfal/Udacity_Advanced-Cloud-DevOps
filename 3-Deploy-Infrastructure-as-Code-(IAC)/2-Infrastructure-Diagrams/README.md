@@ -11,3 +11,7 @@
 
 
 * [14-IGW-Internet-Gateway](14-IGW-Internet-Gateway.md)
+
+* [16-NAT](./16-NAT.md)
+
+* [18-Autoscaling-Groups](./18-Autoscaling-Groups.md)
