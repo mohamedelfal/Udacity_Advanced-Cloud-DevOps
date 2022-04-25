@@ -16,7 +16,7 @@ Set up the necessary tools to get started with AWS CloudFormation and deploy you
 * 12
 * 13
 * 14-[Create a VPC: Automated](./Create-a-VPC-Automated.md)
-* 15
+* 15-[EC2 Instance with an Admin Role](./EC2-Instance-with-an-Admin-Role.md)
 * 16
 * 17
 
