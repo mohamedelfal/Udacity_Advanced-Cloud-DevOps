@@ -74,8 +74,8 @@ aws cloudformation create-stack  --stack-name challenge1 --region us-east-1 --te
 Don't forget to change the VPC ID and Subnet ID as applicable to you.
 
 
-**Supporting Materials**
-[challenge1-parameters.json](./challenge1-parameters.json)
-[Challenge1](./challenge1.yml)
+**Supporting Materials**  
+* [challenge1-parameters.json](./challenge1-parameters.json) 
+* [Challenge1](./challenge1.yml) 
 
 
