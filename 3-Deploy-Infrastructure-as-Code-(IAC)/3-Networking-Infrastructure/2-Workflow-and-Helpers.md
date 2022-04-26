@@ -11,7 +11,8 @@ The NAT gateway serves as an intermediary to take a private resource's outbound 
 We will deploy the (publicly visible) load balancer in the same VPC having both public and private subnets. Note that all resources within a VPC can connect to each other directly using the private IP address. Therefore, the elastic load balancer can directly distribute the ingress requests across multiple targets VMs with the same VPC, even if the VMs are in a private subnet. We will learn more about the load balancers in the Lesson 4: Servers and Security Groups.
 Let's start with creating the networking infrastructure first, such as, VPC, subnets, Internet gateway, NAT gateway, and route tables.
 
-![networking infrastructures](./image/networking-infrastructures.jpg)
+![networking infrastructures](./image/networking-infrastructures.png)
+
 Filtered out networking infrastructures, such as VPC, subnets, Internet gateway, NAT gateway, and route tables.
 
 **Learning about the YAML file**  
