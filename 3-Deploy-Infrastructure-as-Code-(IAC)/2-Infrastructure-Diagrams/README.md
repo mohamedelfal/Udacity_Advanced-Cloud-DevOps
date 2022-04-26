@@ -20,6 +20,6 @@
 
 * [22-Security-Groups.md](./22-Security-Groups.md)
 
-* [24-Routing-Table.md](,./24-Routing-Table.md)
+* [24-Routing-Table.md](./24-Routing-Table.md)
 
 * [25-S3.md](./25-S3.md)
