@@ -1,25 +1,12 @@
 * [4-Setting-Up-Lucid-Charts](./4-Setting-Up-Lucid-Charts.md)
-
-
 * [6-Diagramming-AWS-accounts-and-regions](./6-Diagramming-AWS-accounts-and-regions.md)
-
 * [8-Diagramming-Availability-Zones](./8-Diagramming-Availability-Zones.md)
-
 * [10-Virtual-Private-Cloud-VPN](./10-Virtual-Private-Cloud-VPN.md)
-
 * [12-Public-vs-Private-Subnets](./12-Public-vs-Private-Subnets.md)
-
-
 * [14-IGW-Internet-Gateway](14-IGW-Internet-Gateway.md)
-
 * [16-NAT](./16-NAT.md)
-
 * [18-Autoscaling-Groups](./18-Autoscaling-Groups.md)
-
-* [20-Load-Balancers.md](./20-Load-Balancers.md)
-
-* [22-Security-Groups.md](./22-Security-Groups.md)
-
-* [24-Routing-Table.md](./24-Routing-Table.md)
-
-* [25-S3.md](./25-S3.md)
+* [20-Load-Balancers](./20-Load-Balancers.md)
+* [22-Security-Groups](./22-Security-Groups.md)
+* [24-Routing-Table](./24-Routing-Table.md)
+* [25-S3](./25-S3.md)
