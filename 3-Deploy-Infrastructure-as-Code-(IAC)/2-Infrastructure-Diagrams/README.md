@@ -15,3 +15,11 @@
 * [16-NAT](./16-NAT.md)
 
 * [18-Autoscaling-Groups](./18-Autoscaling-Groups.md)
+
+* [20-Load-Balancers.md](./20-Load-Balancers.md)
+
+* [22-Security-Groups.md](./22-Security-Groups.md)
+
+* [24-Routing-Table.md](,./24-Routing-Table.md)
+
+* [25-S3.md](./25-S3.md)
