@@ -14,7 +14,7 @@
 >* [4-Other Considerations](#4-other-considerations-)
 >> * [Other Considerations](#other-considerations)
 >* [project 2 rubric ](#project-2-rubric-)
-
+>* [project 2solution](#project-2-solution)
 
 # project 2: Deploy a high-availability web app using CloudFormation
 In this project, you’ll deploy web servers for a highly available web app using CloudFormation.
@@ -130,4 +130,9 @@ Also, check your work against the [rubric](#project-2-rubric-) [here](./image/Pr
 
 ## [Project 2 Rubric ](./image/Project2Rubric.png)
 ![Project 2 Rubric ](./image/Project2Rubric.png)
+
+# Project 2 Solution  
+[Project 2 solution](./project-2-solution/)  
 # [ ↩ ](https://github.com/mohamedelfal/UdacityAdvancedCloudDevOps/) [🔝](#project-2)
+
+# 🇪🇬
