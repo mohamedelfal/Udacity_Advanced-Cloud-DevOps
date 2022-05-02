@@ -7,8 +7,11 @@
 * [Architecture](#architecture)
 * [Running The Project](#running-the-project)
 * [Output](#output)
+* [Web App Url](#web-app-url)
+* [Screenshot](#screenshot)
 * [Files Included](#files-included)
-
+* [GitHub Link](#github-link)
+* [Project Review result](#project-passed-heavy_check_mark)
 
 ## Starter Code
 Starter Code Link for the project in this [Github repository](https://github.com/udacity/nd9991-c2-Infrastructure-as-Code-v1/tree/master/supporting_material). 
@@ -28,7 +31,7 @@ So, choose an Instance size and Machine Image (AMI) that best fits this spec.
 Be sure to allocate at least 10GB of disk space so that you don't run into issues.
 
 ### Architecture
-![Architecture](./infrastructure-diagram-Lucidchart.png)
+![Architecture](./Deploy-a-high-availability-web-app-using-CloudFormation/infrastructure-diagram-Lucidchart.png)
 
 ### Running the project:
 
@@ -68,17 +71,33 @@ Or:
 ```
 
 ### Output
-Services stack outputs the final website `URL`.
+Services stack outputs the final website [`URL`](http://highl-webap-1eeldxiwypcg4-1932080337.us-east-1.elb.amazonaws.com/index.html).
+
+# Web App Url
+http://highl-webap-1eeldxiwypcg4-1932080337.us-east-1.elb.amazonaws.com/index.html
+
+## Screenshot
+![udagram Page.jpg](./Deploy-a-high-availability-web-app-using-CloudFormation/udagram%20Page.jpg)
+
 
 ### Files included:
 
-- [infrastructure-diagram-Lucidchart.png](./infrastructure-diagram-Lucidchart.png) - infrastructure diagram
-- [`network.yaml`](./network.yaml) - CloudFormation network infrastructure stack description.
-- [`network-parameters.json`](./network-parameters.json) - Parameters file for the network infrastructure stack
-- [`services.yaml`](./services.yaml) - CloudFormation services infrastructure stack description
-- [`services-parameters.json`](./services-parameters.json) - Parameters file for the services infrastructure stack
-- [`run-networks.sh`](./run-networks.sh) - bash script for managing network infrastructure stack
-- [`run-services.sh`](./run-services.sh) - bash script for managing services infrastructure stack
+- [`network.yaml`](./Deploy-a-high-availability-web-app-using-CloudFormation/network.yaml) - CloudFormation network infrastructure stack description.
+- [`network-parameters.json`](./Deploy-a-high-availability-web-app-using-CloudFormation/network-parameters.json) - Parameters file for the network infrastructure stack
+- [`services.yaml`](./Deploy-a-high-availability-web-app-using-CloudFormation/services.yaml) - CloudFormation services infrastructure stack description
+- [`services-parameters.json`](./Deploy-a-high-availability-web-app-using-CloudFormation/services-parameters.json) - Parameters file for the services infrastructure stack
+- [`run-networks.sh`](./Deploy-a-high-availability-web-app-using-CloudFormation/run-networks.sh) - bash script for managing network infrastructure stack
+- [`run-services.sh`](./Deploy-a-high-availability-web-app-using-CloudFormation/run-services.sh) - bash script for managing services infrastructure stack
+- [`Url.txt`](./Deploy-a-high-availability-web-app-using-CloudFormation/Url.txt) - a text file contains the url link to *Udagram* app website
+- [infrastructure-diagram-Lucidchart.png](./Deploy-a-high-availability-web-app-using-CloudFormation/infrastructure-diagram-Lucidchart.png) - infrastructure diagram
+- [work progress screenshot](./Deploy-a-high-availability-web-app-using-CloudFormation/work%20progress) - Screenshots for work progress
+- [final website screenshot](./Deploy-a-high-availability-web-app-using-CloudFormation/udagram%20Page.jpg) - Screenshot for Udagram app website
+## GitHub Link
+https://github.com/mohamedelfal/Udacity-Advanced-Cloud-DevOps/
 
-# Url
-http://highl-webap-1eeldxiwypcg4-1932080337.us-east-1.elb.amazonaws.com/index.html
+# Project Passed :heavy_check_mark:
+
+![passed](./Deploy-a-high-availability-web-app-using-CloudFormation/review/Screenshot%202022-05-02%20at%2005-37-14%20Look%20at%20my%20Udacity%20Project%20Feedback!.png)
+
+
+:white_check_mark:
