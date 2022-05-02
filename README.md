@@ -6,6 +6,7 @@
 * [Project 1: Deploy Static Website on AWS](#deploy-static-website-on-aws)
 * [Project 1 Solution](#project-1-solution-)
 * [Project 2: Deploy a high-availability web app using CloudFormation](#deploy-a-high-availability-web-app-using-cloudformation)
+* [project 2 solution](#project-2-solution)
 
 
 ## Project 1 [🔝](#advanced-cloud-devops)
